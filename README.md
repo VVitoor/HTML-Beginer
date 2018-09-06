@@ -2,12 +2,11 @@
 Initialization of html studies
 
 <!DOCTYPE html>
-
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <title>Tudo sobre Google Glass</title>
-	<link rel="stylesheet" type="text/css" href="css/CSS1.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 </head>
 <body>
 
@@ -18,15 +17,17 @@ Initialization of html studies
 				<h2>A revolução do Google está chegando</h2>
 			</hgroup>
 
-			<img src="imagens/glass-oculos-preto-peq.png" />
+			<img id="icone" src="imagens/glass-oculos-preto-peq.png" />
 
-			<nav>
+			<nav id="menu">
 				<h1>Menu Principal</h1>
-				- Home
-				- Especificações
-				- Fotos
-				- Multimídia
-				- Fale conosco
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="specs.html">Especificações</a></li>
+					<li><a href="fotos.html">Fotos</a></li>
+					<li><a href="multimidia.html">Multimídia</a></li>
+					<li><a href="fale-conosco.html">Fale conosco</a></li>
+				</ul>
 			</nav>
 		</header>
 
@@ -39,7 +40,7 @@ Initialization of html studies
 
 
 		<h2>O que é</h2> 
-		<p>O <span style="font-weight:900;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <i>Project Glass</i>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;ferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+		<p>O <span style="font-weight:900;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="http://glass.google.com" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;ferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <em>Google Glass</em> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
 		
 		<figure class="foto-legenda">
 			<img src="imagens/glass-quadro-homem-mulher.jpg" />
